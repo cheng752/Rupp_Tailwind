@@ -44,7 +44,7 @@
     <nav class="bg-white border-b-2 border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="/image/rupp_logo.png" class="h-8" alt="Flowbite Logo" />
+                <img src="./image/rupp_logo.png" class="h-8" alt="Flowbite Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -76,9 +76,9 @@
         activeSlide: 0,
         slides: [
             '/image/carousel1.jpg',
-            '/image/carousel2.jpg',
-            '/image/carousel3.jpg',
-            '/image/carousel4.jpg'
+            './image/carousel2.jpg',
+            './image/carousel3.jpg',
+            './image/carousel4.jpg'
         ],
         nextSlide() {
             this.activeSlide = (this.activeSlide + 1) % this.slides.length;
@@ -137,7 +137,7 @@
                 <div class="mb-3 bg-light border-pink border p-4 rounded" style="height: 550px;">
                     <p class="font-bold text-left">Contact Info</p>
                     <hr class="my-0">
-                    <img src="/image/contact.jpg" alt="Contact" class="mb-3 w-full rounded">
+                    <img src="./image/contact.jpg" alt="Contact" class="mb-3 w-full rounded">
                     <p class="text-black text-sm">Campus I, RUPP</p>
                     <p class="text-black text-sm">Director:</p>
                     <p class="text-black text-sm font-bold">Mr. Net Wanna</p>
